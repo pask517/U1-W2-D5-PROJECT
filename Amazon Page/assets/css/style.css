@@ -69,10 +69,15 @@ main {
 }
 #4immagini {
   display: flex;
+  width: 100%;
+  padding-left: 1em;
+}
+#immaginedelle4cane {
+  margin-right: 0;
 }
 .immaginedelle4 {
-  width: 18em;
-  height: 20em;
+  width: 23%;
+  height: 25em;
   border-radius: 10%;
   margin-right: 1em;
   object-fit: cover;
@@ -83,6 +88,7 @@ main {
   border: 0.2em white solid;
   box-shadow: 0.2em 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.4);
 }
+
 main section div:first-of-type {
   text-align: left;
   margin-left: 1.5em;
