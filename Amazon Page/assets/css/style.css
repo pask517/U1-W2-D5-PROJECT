@@ -1,1 +1,153 @@
 /* Your styles here */
+
+#top-logo-amazon {
+  background-color: rgb(36, 36, 78);
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+}
+#top-logo-amazon img {
+  width: 10em;
+}
+#div2-nav1 {
+  display: inline-block;
+  background-color: rgb(58, 58, 92);
+  width: 100%;
+}
+#div2-nav1 nav ul li {
+  list-style: none;
+  margin-right: 1em;
+}
+#div2-nav1 nav ul {
+  display: flex;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-left: 1em;
+}
+#div2-nav1 nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.75em;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 1.25em;
+}
+
+#striscia-arancione {
+  background-color: rgb(253, 86, 26);
+  margin-top: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-bottom: 2em;
+}
+#striscia-arancione a {
+  font-size: 1.1em;
+}
+main {
+  margin-right: 2em;
+  margin-left: 2em;
+  text-align: center;
+  color: white;
+}
+#immagine-pacchi {
+  background-image: url("./images/bg-image.png");
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+#immagine-pacchi h4 {
+  margin-top: 1em;
+}
+#4immagini {
+  display: flex;
+}
+.immaginedelle4 {
+  width: 18em;
+  height: 20em;
+  border-radius: 10%;
+  margin-right: 1em;
+  object-fit: cover;
+}
+#titolie4immagini {
+  background-color: rgb(255, 255, 255);
+  margin-top: 2em;
+  border: 0.2em white solid;
+  box-shadow: 0.2em 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.4);
+}
+main section div:first-of-type {
+  text-align: left;
+  margin-left: 1.5em;
+  display: flex;
+  margin-bottom: 1em;
+  color: black;
+
+  padding-top: 1em;
+}
+main section div:first-of-type a {
+  margin-top: 0.14em;
+  margin-left: 0.8em;
+  text-decoration: none;
+  color: rgb(28, 28, 248);
+  font-size: 1.2em;
+}
+.immaginevrescritte {
+  margin-top: 2em;
+}
+.immagine {
+  object-fit: contain;
+  width: 100%;
+}
+h3 {
+  color: black;
+}
+.immaginevrescritte a {
+  margin-top: 0.14em;
+  margin-left: 0.8em;
+  text-decoration: none;
+  color: rgb(28, 28, 248);
+  font-size: 1.2em;
+  padding-bottom: 1em;
+}
+.gamingtitles {
+  text-align: center;
+  display: inline-block;
+  padding-bottom: 2em;
+}
+.gamingtitles a {
+  margin-top: 0.14em;
+  margin-left: 0.8em;
+  text-decoration: none;
+  color: rgb(28, 28, 248);
+  font-size: 0.8em;
+}
+#soundimg {
+  margin-top: 0;
+}
+footer {
+  text-align: center;
+}
+#back-to-top {
+  background-color: rgb(58, 58, 92);
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+#back-to-top a {
+  color: white;
+}
+#bottom-logo-amazon {
+  background-color: rgb(36, 36, 78);
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+#bottom-logo-amazon img {
+  width: 10em;
+}
